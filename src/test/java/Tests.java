@@ -62,9 +62,10 @@ public class Tests {
     }
 
     @Ignore("Message for ignored test")
-    @Test
-    public void ignoredTest() {
-        System.out.println("will not print it");
+    @Test(timeout = 1000)
+    public void infinity() {
+
+        while (true);
     }
 
     @Test(timeout = 100)
