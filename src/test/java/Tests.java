@@ -41,12 +41,12 @@ public class Tests {
     @Test
     public void testDelit() throws Exception {
         System.out.println("testDelit()");
-        assertEquals(20, calculator.delit(100,5));
+        assertEquals(20, calculator.divide(100,5));
     }
     @Test
     public void testYmnodit() throws Exception {
         System.out.println("testYmnodit()");
-        assertEquals(50, calculator.ymnodit(10,5));
+        assertEquals(50, calculator.multiply(10,5));
     }
 
     @Test
@@ -58,7 +58,7 @@ public class Tests {
     @Test (expected = Exception.class)
     public void divisionWithException() {
         System.out.println("divisionWithException()");
-        calculator.delit(15,0);
+        calculator.divide(15,0);
     }
 
     @Ignore("Message for ignored test")

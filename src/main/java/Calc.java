@@ -11,12 +11,12 @@ public class Calc {
             return x-y;
         }
 
-        public int delit(int x, int y) {
+        public int divide(int x, int y) {
 
             return x/y;
         }
 
-        public int ymnodit(int x, int y) {
+        public int multiply(int x, int y) {
 
             return x*y;
         }
